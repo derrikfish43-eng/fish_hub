@@ -21,49 +21,5 @@
 <div id="main">
   <span style="border-radius:10px;background-color:DodgerBlue;font-size:30px;cursor:pointer" onclick="openNav()"> &#77; &#111; &#114; &#101;</span>
 </div>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
- }
- let title = document.getElementById('title');
- let body = document.getElementById('body');
- const picts = document.getElementsByClassName('pics');
- const picts2 = document.getElementsByClassName('pics2');
- const picts3 = document.getElementById('pics3');
- function onmash(ungh){
-    title.textContent = ungh;
-    if(ungh == "WW1"){
-        body.innerHTML='<video width="1000px" controls id="ww1" style="position:absolute;z-index:2;"><source src="https://codehs.com/uploads/fc8453efb0dfe9c786a486cdabee56fe" type="video/mp4"></video>';
-        }
-        
-    if (ungh == "Contact"){
-        body.innerHTML = 'Phone: (470)-967-9629<br>Email: caseyowenlee@gmail.com<br>';
-    }
-    if (ungh == "About"){
-        body.innerHTML = 'My name is Casey Lee, I was named after my uncle who passed away.  I am in Boy Scouts and I play ice hockey.  I have extreme ADHD and struggle with focussing.  I absolutely love STEM and make cool things with my friends.<br><ol><li>My favorite brand of pump is a FYBROC pump.  </li><li>My favorite show is Octonauts.  Theme song:<br><audio controls autoplay><source src="https://codehs.com/uploads/7751a900a45347f159c27007fc8def75" type="audio/mpeg"></audio>  </li><li>My favorite documentary is the Ohio movie(aka Helltown movie) or the WW1 movie(play in more).</li><li>My favorite book is Force Man and Super Casey, by Oluwasemilore Akinsola and Casey Lee.  </li></ol><br><img id="pics4" src="https://codehs.com/uploads/2e166b8cdf8ddb1a08bc4029383a41ad" alt="Mountains">';
-    }
-    if (ungh == "Force Man and Super Casey"){
-        body.innerHTML = 'Force Man and Super Casey is a book created over the span of a year by Oluwasemilore Akinsola and Casey Lee.  The book, consisting of nine chapters, was created in the year 2017.  The book follows Super Casey, a boy with the power to manipulate reality, and Force Man, a man with the ability to telepathically create kinetic forces.  The two main characters fight the evils of the two antagonists, Red Bullet, a cybernetically enhanced person, and Fire Ant, a pyrokinnetic Christopher Columbus.<br>I like it because it is the first book I ever made and brings awesome memories.  It was an amazing expieriance with my best friend Oluwasemilore Akinsola.  It also taught me alot about how to write and make a story.<br>Unfortunately there is nowhere else to read about our book, but I do sugest reading Marvel comics, they also have good super hero stories.<br><div id="fm"><img id="pics4" src="https://codehs.com/uploads/fce99405937ae4021b4d4b00d07e57a1" alt="Mountains"><img id="pics4" src="https://codehs.com/uploads/41c9ba6817cd336f1c285e04ca0cf367" alt="Mountains">';
-    }
-    if (ungh == "Gallery"){
-        body.innerHTML = 'Here are some photos that I have taken! :)<br><br><img class="pics" src="https://codehs.com/uploads/539b45697f96547d466b68533d36b9b9" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/67e761876b4e7e803d10e26915c406ca" alt="Mountains"><img class="pics2" src="https://codehs.com/uploads/eb1fef5184556521d4d96b83c57d4012" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/1a6a736817266374e4d4ee8982093ee8" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/09503baa765702a978e1838ec3d231a9" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/425b757297524ecc000bab4567ea098b" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/181e43fa869ec8d76a3ee656a229cd11" alt="Mountains"><img class="pics2" src="https://codehs.com/uploads/9b3d1fb9049c680171c5c6b93936e750" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/7755a100eb2d4e4414cefc09a50cee64" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/96506839be3fb21629fb81fbf4c43c62" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/59ce948db4ea96ba2a6a2df6748ee04c" alt="Mountains"><img class="pics" src="https://codehs.com/uploads/a62596f9f26ecf09106d249867a22d2f" alt="Mountains">';
-        document.getElementById('div').style.height= "140%";
-    } 
-    if (ungh == "Home"){
-        body.innerHTML = '<h21>Casey Lee</h21><br><img id="pics3" src="https://codehs.com/uploads/2360700066503eab02d251207a4b6462" alt="Mountains"><br>Hi my name is Casey Lee, I am a freshman at IA and avid nature photographer.';
-         body.style.left = '50%';
-         body.style.transform = 'translate(-50%,0)';
-    }else{
-         body.style.left = '0';
-         body.style.transform = 'translate(0%,0)';
-    }
-    
- }
-</script>
+<script type="text/javascript" src="script.js"></script>
 </body>
