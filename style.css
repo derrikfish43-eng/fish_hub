@@ -1,0 +1,152 @@
+h4 {
+  font-family: average;
+  color: #07F6ED;
+  font-size: 100px;
+}
+h6 {
+  font-family: average;
+  color: #07ABB6;
+  font-size: 100px;
+}
+.topart {
+  color: white;
+  padding: 14px /*20px*/0px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+h2346 {
+  font-family: analog;
+  color: #d3d3d3;
+  font-size: 20px;
+  position: absolute;
+  top:140px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+h234 {
+  font-family: analog;
+  color: #d3d3d3;
+  font-size: 70px;
+  position: absolute;
+  top:50px;
+}
+h21 {
+  font-family: analog;
+  color: #d3d3d3;
+  font-size: 70px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+span {
+  font-family: average;
+  color: #89CFF0;
+  font-size: 100px;
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #89CFF0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  position: fixed;
+  top: 600px;
+  left: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1567 {
+  font-family: analog;
+  color: red;
+  font-size: 100px;
+}
+.creg {
+  width: 25%;
+  border-radius: 1000px;
+  transform: translate(0%,-25%);
+}
+button {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: #566;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  border-radius: 1000px;
+  
+}
+
+
+button:hover {
+  opacity: 0.8;
+  background-color: blue
+}
+.pics {
+    width:180px;
+    height:239.4px;
+    border-radius: 10px;
+    margin-left: .5%;
+}
+.pics2 {
+    width:318.402px;
+    height:239.4px;
+    border-radius: 10px;
+    margin-left: .5%;
+}
+#pics3 {
+    width:300px;
+    border-radius: 10px;
+    margin-left:50%;
+    transform: translate(-50%,0%);
+}
+#pics4 {
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#fm {
+    margin-left: 50%;
+}
