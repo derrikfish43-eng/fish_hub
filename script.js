@@ -14,10 +14,13 @@ function closeNav() {
  const picts3 = document.getElementById('pics3');
  function onmash(ungh){
     title.textContent = ungh;
+    
     if(ungh == "WW1"){
         body.innerHTML='<video width="1000px" controls id="ww1" style="position:absolute;z-index:2;"><source src="https://codehs.com/uploads/fc8453efb0dfe9c786a486cdabee56fe" type="video/mp4"></video>';
         }
-        
+    if(ungh == "WW2"){
+        body.innerHTML='<video width="1000px" controls id="ww1" style="position:absolute;z-index:2;"><source src="https://codehs.com/uploads/96ee02e781734ad8f2faa8c34e2b953c" type="video/mp4"></video>';
+        }
     if (ungh == "Contact"){
         body.innerHTML = 'Phone: (470)-967-9629<br>Email: caseyowenlee@gmail.com<br>';
     }
